@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Roboto;
+    background-color: #4677f6;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    width: 300px;
+    height: 435px;
+    background-color: white;
+    margin-top: 5rem;
+    padding: 1.5rem;
+    /* overflow: hidden; */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    overflow: visible;
+}
+
+.menu {
+    width: 16px;
+    height: 16px;
+    opacity: 40%;
+}
+
+.menu:hover {
+    opacity: 100%;
+    cursor: pointer;
+}
+
+.part-1 {
+     width: 310px;
+     height: 100px;
+     background: url(/img/map.png) #7b94e2;
+     background-position: center;
+     background-blend-mode: multiply;
+     margin-left: -1.8rem;
+     color: white;
+     font-size: 12px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     padding: 1.5rem 2rem 2rem;
+     position: relative;
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cal {
+    margin-top: -1rem;
+}
+
+.car {
+    width: 16px;
+    height: 16px;
+}
+
+.progress {
+    display: flex;
+    align-items: center;
+}
+
+.line {
+    width: 120px;
+    height: 2px;
+    background-color: #ffffffb5;
+}
+
+.circle {
+    display: flex;
+    width: 0.3rem;
+    height: 0.3rem;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.linea {
+    height: 2px;
+    width: 25%;
+    background-color: blue;
+}
+
+.second {
+    display: flex;
+    column-gap: 2rem;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+button {
+    position: absolute;
+    bottom: -15px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 85px;
+    height: 30px;
+    background-color: #4677f6;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+.part-2 {
+    margin-top: 2rem;
+    font-size: 12px;
+}
+
+.detail {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    column-gap: 1rem;
+}
+
+.plan {
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+}
+
+.time {
+    font-size: 8px;
+    color: gray;
+}
+
+.street {
+    width: 320px;
+    height: 40px;
+    background-image: url(/img/streetview.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    padding-left: 0.5rem;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+    /* overflow: hidden; */
+}
+
+.st {
+    overflow: hidden;
+    width: 276px;
+    height: 40px;
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+
